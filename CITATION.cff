@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "Se você usar este software, cite-o como abaixo."
+title: "Colorímetro por Foto: estimativa da cor do dente em CIELAB e ΔE00 a partir de fotografia com cartão cinza"
+type: software
+version: 0.1.0
+date-released: 2026-10-19
+doi: 10.6084/m9.figshare.34702197
+license: MIT
+repository-code: "https://github.com/mborille/colorimetro-foto"
+authors:
+  - family-names: Borille
+    given-names: Marcelo Barboza
+    orcid: "https://orcid.org/0009-0000-5422-207X"
+keywords:
+  - odontologia
+  - cor dental
+  - colorimetria
+  - CIELAB
+  - CIEDE2000
+  - dental shade matching
+  - open source software
+abstract: "Estima a cor de um dente em CIELAB (D65, observador de 2 graus) a partir de uma fotografia com cartão cinza de refletância conhecida na mesma cena e calcula a diferença para uma cor desejada pelo CIEDE2000. Aplicativo HTML independente e módulo Python equivalente. Estimador por câmera, não substitui o espectrofotômetro."
+references:
+  - type: article
+    authors:
+      - family-names: Paravina
+        given-names: Rade D.
+    title: "Color difference thresholds in dentistry"
+    journal: "Journal of Esthetic and Restorative Dentistry"
+    year: 2015
+    volume: 27
+    issue: "Suppl 1"
+    start: S1
+    end: S9
+    doi: 10.1111/jerd.12149
+  - type: article
+    authors:
+      - family-names: Sharma
+        given-names: Gaurav
+      - family-names: Wu
+        given-names: Wencheng
+      - family-names: Dalal
+        given-names: Edul N.
+    title: "The CIEDE2000 color-difference formula: implementation notes, supplementary test data, and mathematical observations"
+    journal: "Color Research & Application"
+    year: 2005
+    volume: 30
+    issue: "1"
+    start: 21
+    end: 30
+    doi: 10.1002/col.20070
