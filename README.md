@@ -1,5 +1,9 @@
 # Colorímetro por Foto (colorimetro-foto)
 
+Abrir no navegador: [mborille.github.io/colorimetro-foto/colorimetro-foto.html](https://mborille.github.io/colorimetro-foto/colorimetro-foto.html)
+
+Versão arquivada e citável: [DOI 10.6084/m9.figshare.34702197](https://doi.org/10.6084/m9.figshare.34702197)
+
 Estima a cor do dente (CIELAB, D65) a partir de uma foto com cartão cinza 18% na mesma cena e calcula o ΔE00 contra uma cor desejada.
 
 ## Arquivos
